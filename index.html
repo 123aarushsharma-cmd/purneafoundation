@@ -1,0 +1,968 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Noticeboard — Purnea Rebirth Foundation | Opportunities &amp; Legal Desk</title>
+  <meta name="description" content="Purnea Rebirth Foundation's Student Opportunities Noticeboard &amp; Legal Services Desk. Daily curated internships, moot courts, scholarships, call for papers, and legal advisory.">
+  
+  <!-- Favicon with Foundation Logo -->
+  <link rel="icon" type="image/jpeg" href="images/logo.jpg">
+  
+  <!-- Google Fonts: Syne / Plus Jakarta Sans / JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Syne:wght@600;700;800&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet">
+  
+  <!-- FontAwesome for crisp modern icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  
+  <!-- Local CSS file -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ===== FLOATING SOCIAL MEDIA SIDEBAR (RIGHT EDGE) ===== -->
+  <aside class="floating-social-sidebar" aria-label="Social Media Quick Links">
+    <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" class="social-side-btn fb" title="Follow us on Facebook" aria-label="Facebook">
+      <i class="fa-brands fa-facebook-f"></i>
+    </a>
+    <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" class="social-side-btn insta" title="Follow us on Instagram" aria-label="Instagram">
+      <i class="fa-brands fa-instagram"></i>
+    </a>
+    <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer" class="social-side-btn linkedin" title="Connect on LinkedIn" aria-label="LinkedIn">
+      <i class="fa-brands fa-linkedin-in"></i>
+    </a>
+    <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer" class="social-side-btn yt" title="Watch on YouTube" aria-label="YouTube">
+      <i class="fa-brands fa-youtube"></i>
+    </a>
+    <a href="https://wa.me/919798488837" target="_blank" rel="noopener noreferrer" class="social-side-btn wa" title="Chat on WhatsApp" aria-label="WhatsApp">
+      <i class="fa-brands fa-whatsapp"></i>
+    </a>
+    <a href="https://t.me" target="_blank" rel="noopener noreferrer" class="social-side-btn tg" title="Join our Telegram Channel" aria-label="Telegram">
+      <i class="fa-brands fa-telegram"></i>
+    </a>
+  </aside>
+
+  <!-- ===== TOP HELPLINE BAR ===== -->
+  <div class="top-bar">
+    <div class="top-bar-inner">
+      <div class="top-bar-left">
+        <span class="top-bar-badge"><i class="fa-solid fa-bullhorn"></i> HELPLINE</span>
+        <span class="top-bar-text">Purnea Rebirth Foundation Student &amp; Legal Desk:</span>
+      </div>
+      <div class="top-bar-right">
+        <a href="tel:+919798488837" class="top-bar-link" aria-label="Call student helpline +91 97984 88837">
+          <i class="fa-solid fa-phone"></i> <strong>+91 97984 88837</strong>
+        </a>
+        <span class="top-bar-divider">|</span>
+        <a href="https://wa.me/919798488837" target="_blank" rel="noopener noreferrer" class="top-bar-link top-bar-wa" aria-label="WhatsApp helpline +91 97984 88837">
+          <i class="fa-brands fa-whatsapp"></i> WhatsApp Support
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== SITE NAVBAR ===== -->
+  <header class="site-header" id="siteHeader">
+    <div class="header-inner">
+      <a href="index.html" class="logo" aria-label="The Noticeboard Homepage">
+        <img src="images/logo.jpg" alt="Purnea Rebirth Foundation Logo" class="brand-logo-img">
+        <div class="logo-text-wrap">
+          <span class="logo-text">The Notice<em>board</em></span>
+          <span class="logo-byline">Purnea Rebirth Foundation</span>
+        </div>
+      </a>
+
+      <!-- Desktop & Mobile Navigation Links -->
+      <nav class="main-nav" id="mainNav" aria-label="Main Navigation">
+        <!-- Close button for mobile menu -->
+        <button class="nav-close-btn" id="navCloseBtn" aria-label="Close navigation menu">&times;</button>
+        
+        <a href="index.html" class="nav-link is-active"><i class="fa-solid fa-house"></i> Home</a>
+
+        <!-- About Dropdown -->
+        <div class="nav-dropdown">
+          <button class="nav-dropdown-trigger" aria-expanded="false" aria-haspopup="true">
+            About <i class="fa-solid fa-chevron-down caret"></i>
+          </button>
+          <div class="nav-dropdown-menu">
+            <a href="#about"><i class="fa-solid fa-circle-info"></i> About Us</a>
+            <a href="#advisory-board"><i class="fa-solid fa-graduation-cap"></i> Advisory Board</a>
+            <a href="#management-team"><i class="fa-solid fa-briefcase"></i> Management Team</a>
+            <a href="#team"><i class="fa-solid fa-users"></i> Our Team</a>
+            <a href="#partners"><i class="fa-solid fa-handshake"></i> Association Partners</a>
+          </div>
+        </div>
+
+        <!-- Opportunity Dropdown (Matches Screenshot) -->
+        <div class="nav-dropdown">
+          <button class="nav-dropdown-trigger" aria-expanded="false" aria-haspopup="true">
+            Opportunity <i class="fa-solid fa-chevron-down caret"></i>
+          </button>
+          <div class="nav-dropdown-menu">
+            <a href="#opportunities" data-category="Conferences/Seminars"><i class="fa-solid fa-microphone"></i> Conferences/Seminars</a>
+            <a href="#opportunities" data-category="Scholarship/Fellowship"><i class="fa-solid fa-award"></i> Scholarship/Fellowship</a>
+            <a href="#courses" data-category="Certificate Courses"><i class="fa-solid fa-certificate"></i> Certificate Courses</a>
+            <a href="#opportunities" data-category="Moot Court Competition"><i class="fa-solid fa-scale-balanced"></i> Moot Court Competition</a>
+            <a href="#opportunities" data-category="Call for Chapters"><i class="fa-solid fa-book-bookmark"></i> Call for Chapters</a>
+            <a href="#opportunities" data-category="Call for Papers"><i class="fa-solid fa-file-lines"></i> Call for Papers</a>
+          </div>
+        </div>
+
+        <!-- Direct Nav Links (Matches Screenshot) -->
+        <a href="#opportunities" data-category="Internships" class="nav-link"><i class="fa-solid fa-user-graduate"></i> Internships</a>
+        <a href="#opportunities" data-category="Jobs" class="nav-link"><i class="fa-solid fa-briefcase"></i> Jobs</a>
+        <a href="#opportunities" data-category="Management" class="nav-link"><i class="fa-solid fa-chart-line"></i> Management</a>
+        <a href="#opportunities" data-category="Scopus" class="nav-link"><i class="fa-solid fa-book-open"></i> Scopus</a>
+
+        <!-- New Dropdown -->
+        <div class="nav-dropdown">
+          <button class="nav-dropdown-trigger" aria-expanded="false" aria-haspopup="true">
+            New <span class="nav-badge-pill">Hot</span> <i class="fa-solid fa-chevron-down caret"></i>
+          </button>
+          <div class="nav-dropdown-menu">
+            <a href="#opportunities" data-category="Entrepreneurship"><i class="fa-solid fa-lightbulb"></i> Entrepreneurship</a>
+            <a href="#courses"><i class="fa-solid fa-shield-halved"></i> Legal Advisory</a>
+          </div>
+        </div>
+
+        <a href="#courses" class="nav-link">Services</a>
+
+        <!-- AI Assistant Header Button -->
+        <button class="nav-ai-btn" id="openAiModalBtn" title="Ask Gemini AI Assistant">
+          <i class="fa-solid fa-wand-magic-sparkles"></i> <span>Ask AI</span>
+        </button>
+
+        <!-- Auth Button -->
+        <div id="authNavWrapper" class="auth-nav-wrapper">
+          <button id="authBtn" class="btn btn-primary btn-sm"><i class="fa-solid fa-user"></i> Sign In</button>
+        </div>
+      </nav>
+
+      <!-- Mobile Hamburger Button -->
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation menu" aria-controls="mainNav" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ===== HERO SECTION ===== -->
+  <section class="hero" aria-labelledby="hero-title">
+    <div class="hero-bg-glow"></div>
+    <div class="hero-inner">
+      <div class="hero-brand-badge">
+        <img src="images/logo.jpg" alt="Purnea Rebirth Foundation Logo" class="hero-brand-logo">
+        <span>Purnea Rebirth Foundation · Renew · Rise · Rebuild</span>
+      </div>
+      
+      <p class="hero-eyebrow"><i class="fa-solid fa-bolt"></i> Verified Student &amp; Academic Noticeboard · Updated Daily</p>
+      
+      <h1 id="hero-title">Empowering Careers with <span class="gradient-text">Verified Deadlines</span><span class="hero-dot">.</span></h1>
+      
+      <p class="hero-sub">Your premier hub for Moot Courts, Internships, Scholarships, Scopus Publications, Certificate Bootcamps, and Corporate Legal Advisory.</p>
+      
+      <!-- Live Search Box Inside Hero -->
+      <div class="hero-search-wrap">
+        <div class="hero-search-box">
+          <i class="fa-solid fa-magnifying-glass search-icon"></i>
+          <input type="text" id="liveSearchInput" placeholder="Search internships, moot courts, scholarships, call for papers..." autocomplete="off">
+          <button id="clearSearchBtn" class="clear-search-btn" title="Clear search" style="display:none;"><i class="fa-solid fa-xmark"></i></button>
+        </div>
+      </div>
+
+      <div class="hero-actions">
+        <a href="#opportunities" class="btn btn-primary"><i class="fa-solid fa-table-cells-large"></i> Explore Opportunities</a>
+        <button id="heroAiTrigger" class="btn btn-ai-sparkle"><i class="fa-solid fa-wand-magic-sparkles"></i> Ask Gemini AI</button>
+        <a href="tel:+919798488837" class="btn btn-call" aria-label="Call helpline +91 97984 88837">
+          <i class="fa-solid fa-phone"></i> +91 97984 88837
+        </a>
+      </div>
+
+      <!-- Live Stats Row -->
+      <div class="hero-stats-row">
+        <div class="stat-card">
+          <span class="stat-number">500+</span>
+          <span class="stat-label">Active Opportunities</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-number">100%</span>
+          <span class="stat-label">Deadline Verified</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-number">50+</span>
+          <span class="stat-label">University Partners</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-number">24/7</span>
+          <span class="stat-label">Student Helpline</span>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Auto-scrolling category ticker -->
+    <div class="hero-ticker" aria-hidden="true">
+      <div class="ticker-track">
+        <span><i class="fa-solid fa-star"></i> PURNEA REBIRTH FOUNDATION</span><span>·</span>
+        <span><i class="fa-solid fa-scale-balanced"></i> MOOT COURTS</span><span>·</span>
+        <span><i class="fa-solid fa-user-graduate"></i> INTERNSHIPS</span><span>·</span>
+        <span><i class="fa-solid fa-award"></i> SCHOLARSHIPS</span><span>·</span>
+        <span><i class="fa-solid fa-file-signature"></i> CALL FOR PAPERS</span><span>·</span>
+        <span><i class="fa-solid fa-book-open"></i> SCOPUS INDEXED</span><span>·</span>
+        <span><i class="fa-solid fa-lightbulb"></i> ENTREPRENEURSHIP</span><span>·</span>
+        <span><i class="fa-solid fa-phone"></i> HELPLINE: +91 97984 88837</span><span>·</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== DAILY FEATURED OPPORTUNITY ===== -->
+  <section class="daily" id="daily" aria-label="Featured Opportunity">
+    <div class="daily-inner" id="dailyInner">
+      <!-- Injected by script.js -->
+    </div>
+  </section>
+
+  <!-- ===== MAIN OPPORTUNITIES NOTICEBOARD ===== -->
+  <section class="board" id="opportunities" aria-labelledby="board-title">
+    <div class="board-inner">
+      <div class="board-header-row">
+        <div>
+          <span class="section-tag"><i class="fa-solid fa-bullhorn"></i> LIVE BOARD</span>
+          <h2 id="board-title">Opportunities On The Board Right Now</h2>
+          <p class="section-subtitle">Auto-updated listings checked for deadline validity daily.</p>
+        </div>
+        <div class="board-header-right">
+          <span id="resultCount" class="result-count" aria-live="polite">Loading listings...</span>
+        </div>
+      </div>
+
+      <!-- Categories Filter Bar (Scrollable chips) -->
+      <div class="filter-bar" id="filterBar" role="group" aria-label="Filter opportunities by category">
+        <button class="filter-chip is-active" data-filter="All"><i class="fa-solid fa-layer-group"></i> All</button>
+        <!-- Categories injected dynamically by JS -->
+      </div>
+
+      <!-- Post Listings Grid -->
+      <div class="post-grid" id="postGrid">
+        <!-- Post cards injected dynamically by JS -->
+      </div>
+
+      <!-- Empty State -->
+      <div class="empty-state" id="emptyState" hidden>
+        <i class="fa-regular fa-folder-open empty-icon"></i>
+        <h3>No opportunities found</h3>
+        <p>Nothing pinned in this category or search query yet. Try another search or filter.</p>
+        <button class="btn btn-primary" id="resetFiltersBtn">Reset All Filters</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ADVISORY BOARD SECTION ===== -->
+  <section class="team-section advisory-section" id="advisory-board" aria-labelledby="advisory-title">
+    <div class="team-inner">
+      <div class="section-header-center">
+        <span class="section-tag"><i class="fa-solid fa-graduation-cap"></i> GUIDANCE &amp; MENTORSHIP</span>
+        <h2 id="advisory-title">Distinguished Advisory Board</h2>
+        <p class="section-subtitle">Eminent jurists, scholars, and industry mentors shaping academic excellence and student empowerment.</p>
+      </div>
+
+      <div class="profile-grid">
+        <!-- Advisory Member 1 -->
+        <article class="profile-card">
+          <div class="profile-avatar-wrap">
+            <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400&auto=format&fit=crop&q=80" alt="Prof. (Dr.) A. K. Sharma" class="profile-avatar">
+            <span class="profile-badge-pill">Senior Advisor</span>
+          </div>
+          <div class="profile-content">
+            <h3>Prof. (Dr.) A. K. Sharma</h3>
+            <p class="profile-role">Former Dean of Faculty of Law &amp; Senior Academician</p>
+            <p class="profile-bio">Over 30 years of experience in higher legal education, constitutional research, and mentorship of international moot court teams.</p>
+            <div class="profile-footer">
+              <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer" class="btn-linkedin" aria-label="Connect with Prof. A. K. Sharma on LinkedIn">
+                <i class="fa-brands fa-linkedin"></i> <span>LinkedIn Profile</span>
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Advisory Member 2 -->
+        <article class="profile-card">
+          <div class="profile-avatar-wrap">
+            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&auto=format&fit=crop&q=80" alt="Adv. Meenakshi Sundaram" class="profile-avatar">
+            <span class="profile-badge-pill">Legal Counsel</span>
+          </div>
+          <div class="profile-content">
+            <h3>Adv. Meenakshi Sundaram</h3>
+            <p class="profile-role">Senior Advocate, Supreme Court of India</p>
+            <p class="profile-bio">Practicing advocate specializing in corporate contracts, arbitration, and constitutional governance. Guide for aspiring student litigators.</p>
+            <div class="profile-footer">
+              <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer" class="btn-linkedin" aria-label="Connect with Adv. Meenakshi Sundaram on LinkedIn">
+                <i class="fa-brands fa-linkedin"></i> <span>LinkedIn Profile</span>
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Advisory Member 3 -->
+        <article class="profile-card">
+          <div class="profile-avatar-wrap">
+            <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&auto=format&fit=crop&q=80" alt="Dr. Rajiv Ranjan" class="profile-avatar">
+            <span class="profile-badge-pill">Policy Advisor</span>
+          </div>
+          <div class="profile-content">
+            <h3>Dr. Rajiv Ranjan</h3>
+            <p class="profile-role">Director, Centre for Digital Governance &amp; Public Policy</p>
+            <p class="profile-bio">Renowned researcher on AI ethics, digital data protection laws, and institutional governance across South Asian universities.</p>
+            <div class="profile-footer">
+              <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer" class="btn-linkedin" aria-label="Connect with Dr. Rajiv Ranjan on LinkedIn">
+                <i class="fa-brands fa-linkedin"></i> <span>LinkedIn Profile</span>
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Advisory Member 4 -->
+        <article class="profile-card">
+          <div class="profile-avatar-wrap">
+            <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&auto=format&fit=crop&q=80" alt="Prof. Sunita Verma" class="profile-avatar">
+            <span class="profile-badge-pill">Research Chair</span>
+          </div>
+          <div class="profile-content">
+            <h3>Prof. Sunita Verma</h3>
+            <p class="profile-role">Editor-in-Chief &amp; Professor of Management Studies</p>
+            <p class="profile-bio">Author of multiple Scopus-indexed research monographs in corporate strategy, social entrepreneurship, and academic journal publishing.</p>
+            <div class="profile-footer">
+              <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer" class="btn-linkedin" aria-label="Connect with Prof. Sunita Verma on LinkedIn">
+                <i class="fa-brands fa-linkedin"></i> <span>LinkedIn Profile</span>
+              </a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== MANAGEMENT TEAM SECTION ===== -->
+  <section class="team-section management-section" id="management-team" aria-labelledby="mgmt-title">
+    <div class="team-inner">
+      <div class="section-header-center">
+        <span class="section-tag"><i class="fa-solid fa-briefcase"></i> LEADERSHIP &amp; OPERATIONS</span>
+        <h2 id="mgmt-title">Management Team Information</h2>
+        <p class="section-subtitle">Driving strategic direction, legal operations, student welfare, and technological innovation.</p>
+      </div>
+
+      <div class="profile-grid">
+        <!-- Management Member 1 -->
+        <article class="profile-card">
+          <div class="profile-avatar-wrap">
+            <img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=400&auto=format&fit=crop&q=80" alt="Amit Kumar Mishra" class="profile-avatar">
+            <span class="profile-badge-pill">Chief Operations</span>
+          </div>
+          <div class="profile-content">
+            <h3>Amit Kumar Mishra</h3>
+            <p class="profile-role">Chief Operating Officer (COO)</p>
+            <p class="profile-bio">Oversees operational execution, institutional MOUs, nationwide campus partnerships, and event logistics across the foundation.</p>
+            <div class="profile-footer">
+              <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer" class="btn-linkedin" aria-label="Connect with Amit Mishra on LinkedIn">
+                <i class="fa-brands fa-linkedin"></i> <span>LinkedIn Profile</span>
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Management Member 2 -->
+        <article class="profile-card">
+          <div class="profile-avatar-wrap">
+            <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&auto=format&fit=crop&q=80" alt="Adv. Sneha Roy" class="profile-avatar">
+            <span class="profile-badge-pill">Legal Head</span>
+          </div>
+          <div class="profile-content">
+            <h3>Adv. Sneha Roy</h3>
+            <p class="profile-role">Head of Legal Advisory &amp; Services Desk</p>
+            <p class="profile-bio">Directs contract drafting, intellectual property guidance, student legal assistance clinics, and compliance advisory workflows.</p>
+            <div class="profile-footer">
+              <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer" class="btn-linkedin" aria-label="Connect with Adv. Sneha Roy on LinkedIn">
+                <i class="fa-brands fa-linkedin"></i> <span>LinkedIn Profile</span>
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Management Member 3 -->
+        <article class="profile-card">
+          <div class="profile-avatar-wrap">
+            <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=400&auto=format&fit=crop&q=80" alt="Rohan Gupta" class="profile-avatar">
+            <span class="profile-badge-pill">Tech Lead</span>
+          </div>
+          <div class="profile-content">
+            <h3>Rohan Gupta</h3>
+            <p class="profile-role">Head of Technology &amp; AI Innovations</p>
+            <p class="profile-bio">Leads digital infrastructure, data aggregation engines, search intelligence, and AI integration for The Noticeboard platform.</p>
+            <div class="profile-footer">
+              <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer" class="btn-linkedin" aria-label="Connect with Rohan Gupta on LinkedIn">
+                <i class="fa-brands fa-linkedin"></i> <span>LinkedIn Profile</span>
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Management Member 4 -->
+        <article class="profile-card">
+          <div class="profile-avatar-wrap">
+            <img src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=400&auto=format&fit=crop&q=80" alt="Pooja Kashyap" class="profile-avatar">
+            <span class="profile-badge-pill">Strategic Alliances</span>
+          </div>
+          <div class="profile-content">
+            <h3>Pooja Kashyap</h3>
+            <p class="profile-role">Head of Strategic Alliances &amp; Student Welfare</p>
+            <p class="profile-bio">Manages career guidance seminars, scholarship distribution frameworks, and corporate employer networks for students.</p>
+            <div class="profile-footer">
+              <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer" class="btn-linkedin" aria-label="Connect with Pooja Kashyap on LinkedIn">
+                <i class="fa-brands fa-linkedin"></i> <span>LinkedIn Profile</span>
+              </a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CORE TEAM SECTION ===== -->
+  <section class="team-section core-team-section" id="team" aria-labelledby="team-title">
+    <div class="team-inner">
+      <div class="section-header-center">
+        <span class="section-tag"><i class="fa-solid fa-users"></i> OUR TEAM</span>
+        <h2 id="team-title">Dedicated Execution Team</h2>
+        <p class="section-subtitle">Meet the team working tirelessly every day to curate, verify, and deliver opportunities to thousands of students.</p>
+      </div>
+
+      <div class="profile-grid">
+        <!-- Team Member 1 -->
+        <article class="profile-card">
+          <div class="profile-avatar-wrap">
+            <img src="https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=400&auto=format&fit=crop&q=80" alt="Vivek Kumar" class="profile-avatar">
+            <span class="profile-badge-pill">Founder &amp; Lead</span>
+          </div>
+          <div class="profile-content">
+            <h3>Vivek Kumar</h3>
+            <p class="profile-role">Founder &amp; Platform Director</p>
+            <p class="profile-bio">Passionate visionary dedicated to educational equity, student legal rights, and digital accessibility for all youth.</p>
+            <div class="profile-footer">
+              <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer" class="btn-linkedin" aria-label="Connect with Vivek Kumar on LinkedIn">
+                <i class="fa-brands fa-linkedin"></i> <span>LinkedIn Profile</span>
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Team Member 2 -->
+        <article class="profile-card">
+          <div class="profile-avatar-wrap">
+            <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?w=400&auto=format&fit=crop&q=80" alt="Ananya Sengupta" class="profile-avatar">
+            <span class="profile-badge-pill">Lead Researcher</span>
+          </div>
+          <div class="profile-content">
+            <h3>Ananya Sengupta</h3>
+            <p class="profile-role">Lead Research Associate &amp; Content Editor</p>
+            <p class="profile-bio">Monitors university gazettes, Scopus call for papers, and international scholarship grants for accuracy and deadlines.</p>
+            <div class="profile-footer">
+              <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer" class="btn-linkedin" aria-label="Connect with Ananya Sengupta on LinkedIn">
+                <i class="fa-brands fa-linkedin"></i> <span>LinkedIn Profile</span>
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Team Member 3 -->
+        <article class="profile-card">
+          <div class="profile-avatar-wrap">
+            <img src="https://images.unsplash.com/photo-1501196354995-cbb51c65aaea?w=400&auto=format&fit=crop&q=80" alt="Priyanshu Singh" class="profile-avatar">
+            <span class="profile-badge-pill">Student Affairs</span>
+          </div>
+          <div class="profile-content">
+            <h3>Priyanshu Singh</h3>
+            <p class="profile-role">Head of Student Relations &amp; Campus Ambassadors</p>
+            <p class="profile-bio">Coordinates with over 200 campus student ambassadors across National Law Universities and Central Universities.</p>
+            <div class="profile-footer">
+              <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer" class="btn-linkedin" aria-label="Connect with Priyanshu Singh on LinkedIn">
+                <i class="fa-brands fa-linkedin"></i> <span>LinkedIn Profile</span>
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Team Member 4 -->
+        <article class="profile-card">
+          <div class="profile-avatar-wrap">
+            <img src="https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?w=400&auto=format&fit=crop&q=80" alt="Rahul Verma" class="profile-avatar">
+            <span class="profile-badge-pill">Outreach Lead</span>
+          </div>
+          <div class="profile-content">
+            <h3>Rahul Verma</h3>
+            <p class="profile-role">Digital Outreach &amp; Media Manager</p>
+            <p class="profile-bio">Drives online student community engagement, daily newsletters, Telegram channels, and social broadcast media.</p>
+            <div class="profile-footer">
+              <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer" class="btn-linkedin" aria-label="Connect with Rahul Verma on LinkedIn">
+                <i class="fa-brands fa-linkedin"></i> <span>LinkedIn Profile</span>
+              </a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== OUR ASSOCIATION PARTNERS SECTION ===== -->
+  <section class="partners-section" id="partners" aria-labelledby="partners-title">
+    <div class="partners-inner">
+      <div class="section-header-center">
+        <span class="section-tag"><i class="fa-solid fa-handshake"></i> COLLABORATIONS &amp; ALLIANCES</span>
+        <h2 id="partners-title">Our Association Partners</h2>
+        <p class="section-subtitle">Collaborating with premier universities, legal forums, and educational publishers to bring the best opportunities.</p>
+      </div>
+
+      <div class="partner-grid">
+        <!-- Partner 1: Knowledge Steez -->
+        <article class="partner-card">
+          <div class="partner-card-header">
+            <div class="partner-logo-box">
+              <i class="fa-solid fa-newspaper partner-icon"></i>
+            </div>
+            <div class="partner-badge">Premier Media Partner</div>
+          </div>
+          <h3>Knowledge Steez</h3>
+          <p class="partner-type">Leading Academic &amp; Legal Opportunities Portal</p>
+          <p class="partner-desc">India’s foremost student portal aggregating conferences, moot court competitions, seminars, and international academic fellowships.</p>
+          <div class="partner-card-footer">
+            <a href="https://www.linkedin.com/company/knowledge-steez" target="_blank" rel="noopener noreferrer" class="btn-partner-link" aria-label="Visit Knowledge Steez on LinkedIn">
+              <i class="fa-brands fa-linkedin"></i> <span>Official LinkedIn</span>
+            </a>
+            <a href="https://knowledgesteez.com" target="_blank" rel="noopener noreferrer" class="btn-partner-site" aria-label="Visit Knowledge Steez Website">
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </a>
+          </div>
+        </article>
+
+        <!-- Partner 2: ISAI-DT -->
+        <article class="partner-card">
+          <div class="partner-card-header">
+            <div class="partner-logo-box">
+              <i class="fa-solid fa-microchip partner-icon"></i>
+            </div>
+            <div class="partner-badge">Technology Partner</div>
+          </div>
+          <h3>International Society of AI &amp; Digital Tech</h3>
+          <p class="partner-type">Global Research Forum</p>
+          <p class="partner-desc">Collaborating on summer schools, certifications, and international conferences centered around AI ethics, law, and digital governance.</p>
+          <div class="partner-card-footer">
+            <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer" class="btn-partner-link" aria-label="Visit ISAI-DT on LinkedIn">
+              <i class="fa-brands fa-linkedin"></i> <span>Official LinkedIn</span>
+            </a>
+            <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer" class="btn-partner-site" aria-label="Visit Website">
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </a>
+          </div>
+        </article>
+
+        <!-- Partner 3: Jagran Lakecity University -->
+        <article class="partner-card">
+          <div class="partner-card-header">
+            <div class="partner-logo-box">
+              <i class="fa-solid fa-building-columns partner-icon"></i>
+            </div>
+            <div class="partner-badge">Academic Partner</div>
+          </div>
+          <h3>Jagran Lakecity University</h3>
+          <p class="partner-type">Leading Higher Education Institution</p>
+          <p class="partner-desc">Partnering for faculty development programs, research fellowships, national law symposiums, and student internship placement drives.</p>
+          <div class="partner-card-footer">
+            <a href="https://www.linkedin.com/school/jagran-lakecity-university" target="_blank" rel="noopener noreferrer" class="btn-partner-link" aria-label="Visit Jagran Lakecity University on LinkedIn">
+              <i class="fa-brands fa-linkedin"></i> <span>Official LinkedIn</span>
+            </a>
+            <a href="https://jlu.edu.in" target="_blank" rel="noopener noreferrer" class="btn-partner-site" aria-label="Visit Website">
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </a>
+          </div>
+        </article>
+
+        <!-- Partner 4: Galgotias University School of Law -->
+        <article class="partner-card">
+          <div class="partner-card-header">
+            <div class="partner-logo-box">
+              <i class="fa-solid fa-landmark partner-icon"></i>
+            </div>
+            <div class="partner-badge">Institutional Partner</div>
+          </div>
+          <h3>Galgotias University (School of Law)</h3>
+          <p class="partner-type">Premier Law &amp; Management School</p>
+          <p class="partner-desc">Co-organizing national moot courts, legal drafting competitions, and campus incubation workshops for budding management professionals.</p>
+          <div class="partner-card-footer">
+            <a href="https://www.linkedin.com/school/galgotias-university" target="_blank" rel="noopener noreferrer" class="btn-partner-link" aria-label="Visit Galgotias University on LinkedIn">
+              <i class="fa-brands fa-linkedin"></i> <span>Official LinkedIn</span>
+            </a>
+            <a href="https://galgotiasuniversity.edu.in" target="_blank" rel="noopener noreferrer" class="btn-partner-site" aria-label="Visit Website">
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== COURSES & LEGAL SERVICES SECTION ===== -->
+  <section class="courses" id="courses" aria-labelledby="courses-title">
+    <div class="courses-inner">
+      <div class="board-header-row">
+        <div>
+          <span class="section-tag"><i class="fa-solid fa-scale-balanced"></i> LEGAL DESK</span>
+          <h2 id="courses-title">Legal Services &amp; Advisory Desk</h2>
+          <p class="section-subtitle">Dedicated legal drafting, startup compliance, and career advisory for students and institutions.</p>
+        </div>
+        <div class="courses-contact-quick">
+          <span>Direct Advisory Desk:</span>
+          <a href="tel:+919798488837" class="courses-phone-link"><i class="fa-solid fa-phone"></i> +91 97984 88837</a>
+        </div>
+      </div>
+      
+      <div class="courses-grid">
+        <article class="course-card" data-course-title="Contract Services">
+          <span class="course-index">01</span>
+          <div class="course-card-header">
+            <i class="fa-solid fa-file-contract course-icon"></i>
+            <h3>Contract Services</h3>
+          </div>
+          <p>End-to-end support for reviewing, outlining, and structuring commercial contracts and freelancer agreements.</p>
+          <a href="https://wa.me/919798488837?text=Hi,%20I%20need%20assistance%20with%20Contract%20Services" target="_blank" class="course-action-link">Consult Now <i class="fa-solid fa-arrow-right"></i></a>
+        </article>
+        
+        <article class="course-card" data-course-title="Contract Drafting">
+          <span class="course-index">02</span>
+          <div class="course-card-header">
+            <i class="fa-solid fa-pen-nib course-icon"></i>
+            <h3>Contract Drafting</h3>
+          </div>
+          <p>Custom-drafted agreements tailored precisely to your specific terms, founder MOUs, and business use cases.</p>
+          <a href="https://wa.me/919798488837?text=Hi,%20I%20need%20Contract%20Drafting%20support" target="_blank" class="course-action-link">Consult Now <i class="fa-solid fa-arrow-right"></i></a>
+        </article>
+        
+        <article class="course-card" data-course-title="NDA">
+          <span class="course-index">03</span>
+          <div class="course-card-header">
+            <i class="fa-solid fa-shield-halved course-icon"></i>
+            <h3>NDA Drafting</h3>
+          </div>
+          <p>Protect proprietary IP with airtight Non-Disclosure Agreements for founders, freelancers, and research labs.</p>
+          <a href="https://wa.me/919798488837?text=Hi,%20I%20need%20NDA%20Drafting" target="_blank" class="course-action-link">Consult Now <i class="fa-solid fa-arrow-right"></i></a>
+        </article>
+        
+        <article class="course-card" data-course-title="Legal Services">
+          <span class="course-index">04</span>
+          <div class="course-card-header">
+            <i class="fa-solid fa-gavel course-icon"></i>
+            <h3>Startup Legal Services</h3>
+          </div>
+          <p>General legal support, documentation, and compliance structures for student startups and early-stage teams.</p>
+          <a href="https://wa.me/919798488837?text=Hi,%20I%20need%20Startup%20Legal%20Services" target="_blank" class="course-action-link">Consult Now <i class="fa-solid fa-arrow-right"></i></a>
+        </article>
+        
+        <article class="course-card" data-course-title="Advisory">
+          <span class="course-index">05</span>
+          <div class="course-card-header">
+            <i class="fa-solid fa-user-tie course-icon"></i>
+            <h3>Academic &amp; Career Advisory</h3>
+          </div>
+          <p>One-on-one mentorship on LL.M applications, moot court strategies, CV optimization, and publication guidelines.</p>
+          <a href="https://wa.me/919798488837?text=Hi,%20I%20need%20Career%20Advisory" target="_blank" class="course-action-link">Consult Now <i class="fa-solid fa-arrow-right"></i></a>
+        </article>
+      </div>
+
+      <!-- Legal Advisory Helpline Callout Box -->
+      <div class="legal-helpline-box">
+        <div class="legal-helpline-info">
+          <span class="legal-helpline-badge"><i class="fa-solid fa-clock"></i> FAST RESPONSE</span>
+          <h3>Need urgent legal advice, agreement drafting, or notice posting?</h3>
+          <p>Contact our advisory team directly for dedicated student discounts and prompt turnarounds within 24 hours.</p>
+        </div>
+        <div class="legal-helpline-actions">
+          <a href="tel:+919798488837" class="btn btn-primary">
+            <i class="fa-solid fa-phone"></i> Call +91 97984 88837
+          </a>
+          <a href="https://wa.me/919798488837" target="_blank" rel="noopener noreferrer" class="btn btn-wa-green">
+            <i class="fa-brands fa-whatsapp"></i> WhatsApp Us
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT / FOUNDATION SECTION ===== -->
+  <section class="cta" id="about" aria-labelledby="about-title">
+    <div class="cta-inner">
+      <!-- Foundation Profile Card with Logo -->
+      <div class="about-foundation-card">
+        <img src="images/logo.jpg" alt="Purnea Rebirth Foundation Logo" class="about-foundation-logo">
+        <div class="about-foundation-info">
+          <span class="foundation-tag"><i class="fa-solid fa-certificate"></i> FOUNDATION INITIATIVE</span>
+          <h3>Purnea Rebirth Foundation</h3>
+          <p class="foundation-motto">Renew · Rise · Rebuild</p>
+          <p class="foundation-text">Empowering students, researchers, and early-stage innovators through verified opportunity aggregation, educational noticeboards, and corporate legal enablement across India.</p>
+        </div>
+      </div>
+
+      <div class="about-grid-details">
+        <div class="about-detail-card">
+          <i class="fa-solid fa-check-double detail-icon"></i>
+          <h4>Strictly Verified Listings</h4>
+          <p>Every post is checked against official university notifications and authentic source links before going live.</p>
+        </div>
+        <div class="about-detail-card">
+          <i class="fa-solid fa-calendar-xmark detail-icon"></i>
+          <h4>Auto Deadline Purging</h4>
+          <p>As soon as an application deadline closes, it is automatically archived so students never waste time on closed forms.</p>
+        </div>
+        <div class="about-detail-card">
+          <i class="fa-solid fa-hand-holding-heart detail-icon"></i>
+          <h4>100% Free for Students</h4>
+          <p>Our core mission is democratization of educational information — all noticeboard listings remain completely free to browse.</p>
+        </div>
+      </div>
+      
+      <div class="cta-helpline-card">
+        <p class="cta-helpline-title">Questions, collaborations, or want to publish your event on the board?</p>
+        <div class="cta-helpline-contacts">
+          <a href="tel:+919798488837" class="cta-phone-pill">
+            <i class="fa-solid fa-phone"></i>
+            <span>+91 97984 88837</span>
+          </a>
+          <a href="https://wa.me/919798488837" target="_blank" rel="noopener noreferrer" class="cta-wa-pill">
+            <i class="fa-brands fa-whatsapp"></i>
+            <span>WhatsApp Helpline</span>
+          </a>
+          <a href="mailto:info@thenoticeboard.edu" class="cta-email-pill">
+            <i class="fa-solid fa-envelope"></i>
+            <span>info@thenoticeboard.edu</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="site-footer" aria-label="Site Footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <div class="footer-logo-row">
+          <img src="images/logo.jpg" alt="Purnea Rebirth Foundation Logo" class="footer-brand-logo">
+          <div class="footer-brand-text">
+            <span class="logo-text">The Notice<em>board</em></span>
+            <span class="footer-foundation-name">Purnea Rebirth Foundation</span>
+          </div>
+        </div>
+        <p class="footer-tagline">An initiative by Purnea Rebirth Foundation (Renew · Rise · Rebuild). Bridging students and scholars with life-changing opportunities daily.</p>
+        
+        <div class="footer-social-row">
+          <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+          <a href="https://wa.me/919798488837" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+      </div>
+      
+      <div class="footer-links-grid">
+        <div class="footer-col">
+          <h4>Explore Categories</h4>
+          <a href="#opportunities" data-category="Internships">Internships</a>
+          <a href="#opportunities" data-category="Moot Court Competition">Moot Court Competitions</a>
+          <a href="#opportunities" data-category="Scholarship/Fellowship">Scholarships &amp; Fellowships</a>
+          <a href="#opportunities" data-category="Call for Papers">Call for Papers (Scopus)</a>
+          <a href="#opportunities" data-category="Jobs">Jobs &amp; Academics</a>
+        </div>
+
+        <div class="footer-col">
+          <h4>About &amp; People</h4>
+          <a href="#about">About Foundation</a>
+          <a href="#advisory-board">Advisory Board</a>
+          <a href="#management-team">Management Team</a>
+          <a href="#team">Our Team</a>
+          <a href="#partners">Our Association Partners</a>
+        </div>
+        
+        <div class="footer-col">
+          <h4>Help &amp; Direct Desk</h4>
+          <a href="tel:+919798488837" class="contact-link" aria-label="Call +91 97984 88837">
+            <i class="fa-solid fa-phone"></i> <strong>+91 97984 88837</strong>
+          </a>
+          <a href="https://wa.me/919798488837" target="_blank" rel="noopener noreferrer" class="contact-link" aria-label="WhatsApp +91 97984 88837">
+            <i class="fa-brands fa-whatsapp"></i> WhatsApp (+91 97984 88837)
+          </a>
+          <a href="mailto:info@thenoticeboard.edu" class="contact-link">
+            <i class="fa-solid fa-envelope"></i> info@thenoticeboard.edu
+          </a>
+          <a href="#courses" class="contact-link">
+            <i class="fa-solid fa-scale-balanced"></i> Legal Advisory Services
+          </a>
+        </div>
+      </div>
+    </div>
+    
+    <div class="footer-bottom-bar">
+      <div class="footer-bottom-inner">
+        <p>&copy; 2026 Purnea Rebirth Foundation. All rights reserved.</p>
+        <p>Helpline &amp; Legal Desk: <a href="tel:+919798488837">+91 97984 88837</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ===== GEMINI AI ASSISTANT MODAL / DRAWER ===== -->
+  <div id="aiModal" class="ai-modal-overlay" aria-hidden="true">
+    <div class="ai-modal-card" role="dialog" aria-modal="true" aria-labelledby="aiModalTitle">
+      <!-- AI Modal Header -->
+      <div class="ai-modal-header">
+        <div class="ai-modal-title-box">
+          <div class="ai-sparkle-icon"><i class="fa-solid fa-wand-magic-sparkles"></i></div>
+          <div>
+            <h3 id="aiModalTitle">Noticeboard AI Assistant</h3>
+            <span class="ai-modal-sub">Powered by Google Gemini · Free Student Counselor</span>
+          </div>
+        </div>
+        <div class="ai-header-controls">
+          <button class="ai-key-btn" id="openApiKeyBtn" title="Set Gemini API Key"><i class="fa-solid fa-key"></i> Key</button>
+          <button class="modal-close" id="aiModalClose" aria-label="Close AI dialog">&times;</button>
+        </div>
+      </div>
+
+      <!-- Optional API Key Bar -->
+      <div id="apiKeyBar" class="api-key-bar" style="display: none;">
+        <label for="geminiApiKeyInput">Gemini API Key (Saved locally in browser):</label>
+        <div class="api-key-input-row">
+          <input type="password" id="geminiApiKeyInput" placeholder="AIzaSy... (Enter your free Gemini key)">
+          <button id="saveApiKeyBtn" class="btn btn-primary btn-sm">Save</button>
+        </div>
+        <small><a href="https://aistudio.google.com/app/apikey" target="_blank" rel="noopener noreferrer">Get free Gemini API key in 10 sec from Google AI Studio &rarr;</a></small>
+      </div>
+
+      <!-- AI Chat History Body -->
+      <div class="ai-chat-body" id="aiChatBody">
+        <div class="ai-message ai-bot">
+          <div class="ai-msg-avatar"><i class="fa-solid fa-robot"></i></div>
+          <div class="ai-msg-bubble">
+            <p><strong>Namaste! I'm your Noticeboard AI Assistant.</strong></p>
+            <p>How can I assist you today? You can ask me:</p>
+            <ul>
+              <li>Which Moot Court competitions are open right now?</li>
+              <li>How to apply for corporate law internships?</li>
+              <li>Tips to draft a publication manuscript for Scopus journals.</li>
+              <li>Details on Purnea Rebirth Foundation legal desk &amp; advisors.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Quick Prompt Suggestion Chips -->
+      <div class="ai-quick-prompts">
+        <button class="quick-chip" data-prompt="Which Moot Court competitions have upcoming deadlines?">⚖️ Moot Courts</button>
+        <button class="quick-chip" data-prompt="How do I apply for the Aethel Legal International internship?">💼 Internships</button>
+        <button class="quick-chip" data-prompt="What scholarships are available on the board?">🎓 Scholarships</button>
+        <button class="quick-chip" data-prompt="How to get help with Contract Drafting or NDA?">📜 Legal Desk</button>
+      </div>
+
+      <!-- AI Input Footer -->
+      <form id="aiChatForm" class="ai-chat-input-bar">
+        <input type="text" id="aiChatInput" placeholder="Ask anything about opportunities, moot courts, legal tips..." required autocomplete="off">
+        <button type="submit" class="ai-send-btn" aria-label="Send Message"><i class="fa-solid fa-paper-plane"></i></button>
+      </form>
+    </div>
+  </div>
+
+  <!-- ===== FLOATING QUICK ACTION PILLS ===== -->
+  <aside class="floating-contact" aria-label="Quick contact helpline">
+    <button class="floating-ai-trigger" id="floatingAiBtn" title="Ask Noticeboard AI">
+      <i class="fa-solid fa-wand-magic-sparkles"></i>
+      <span class="floating-ai-label">Ask AI</span>
+    </button>
+    <a href="tel:+919798488837" class="floating-phone-btn" title="Call +91 97984 88837">
+      <span class="floating-icon"><i class="fa-solid fa-phone"></i></span>
+      <span class="floating-text">+91 97984 88837</span>
+    </a>
+    <a href="https://wa.me/919798488837" target="_blank" rel="noopener noreferrer" class="floating-wa-btn" title="WhatsApp +91 97984 88837" aria-label="WhatsApp +91 97984 88837">
+      <span class="floating-icon"><i class="fa-brands fa-whatsapp"></i></span>
+    </a>
+  </aside>
+
+  <!-- ===== AUTH MODAL ===== -->
+  <div id="authModal" class="modal-overlay" aria-hidden="true">
+    <div class="modal-card" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <button class="modal-close" id="modalClose" aria-label="Close dialog">&times;</button>
+      
+      <!-- Brand Header in Modal -->
+      <div class="modal-brand-header">
+        <img src="images/logo.jpg" alt="Purnea Rebirth Foundation Logo" class="modal-brand-logo">
+        <div class="modal-brand-text">
+          <span class="modal-brand-title">The Noticeboard</span>
+          <span class="modal-brand-sub">Purnea Rebirth Foundation</span>
+        </div>
+      </div>
+
+      <!-- Tab Header -->
+      <div class="modal-tabs">
+        <button class="modal-tab active" id="tabSignIn">Sign In</button>
+        <button class="modal-tab" id="tabCreate">Create Account</button>
+      </div>
+
+      <!-- Tab Content: Sign In -->
+      <form id="formSignIn" class="modal-form">
+        <h2 id="modalTitle">Welcome Back</h2>
+        <p class="form-subtext">Sign in to sync your saved notices and opportunities.</p>
+        
+        <div class="form-group">
+          <label for="signinEmail">Email Address</label>
+          <input type="email" id="signinEmail" required placeholder="name@university.edu">
+        </div>
+        
+        <div class="form-group">
+          <label for="signinPassword">Password</label>
+          <input type="password" id="signinPassword" required placeholder="••••••••">
+        </div>
+        
+        <button type="submit" class="btn btn-primary btn-block">Sign In</button>
+        
+        <div class="modal-help-note">
+          <p>Need access assistance? Call helpline: <a href="tel:+919798488837"><strong>+91 97984 88837</strong></a></p>
+        </div>
+      </form>
+
+      <!-- Tab Content: Create Account -->
+      <form id="formCreate" class="modal-form" style="display: none;">
+        <h2>Create Academic Profile</h2>
+        <p class="form-subtext">Create an account to filter listings by custom fields.</p>
+        
+        <div class="form-group">
+          <label for="createName">Full Name</label>
+          <input type="text" id="createName" required placeholder="Jane Doe">
+        </div>
+        
+        <div class="form-group">
+          <label for="createEmail">University Email</label>
+          <input type="email" id="createEmail" required placeholder="name@university.edu">
+        </div>
+        
+        <div class="form-group">
+          <label for="createPassword">Password</label>
+          <input type="password" id="createPassword" required placeholder="At least 8 characters" minlength="8">
+        </div>
+        
+        <button type="submit" class="btn btn-primary btn-block">Create Account</button>
+
+        <div class="modal-help-note">
+          <p>Questions? Call helpline: <a href="tel:+919798488837"><strong>+91 97984 88837</strong></a></p>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- Link data and script files -->
+  <script src="posts.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
