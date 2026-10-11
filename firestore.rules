@@ -1,0 +1,57 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    
+    // Global Helper functions
+    function isSignedIn() {
+      return request.auth != null;
+    }
+    
+    function isOwner(userId) {
+      return isSignedIn() && request.auth.uid == userId;
+    }
+    
+    function isAdmin() {
+      return isSignedIn() && (
+        request.auth.token.email == '123.aarushsharma@gmail.com' ||
+        exists(/databases/$(database)/documents/admins/$(request.auth.uid))
+      );
+    }
+
+    // Default deny
+    match /{document=**} {
+      allow read, write: if false;
+    }
+
+    // Opportunities Collection
+    match /opportunities/{opportunityId} {
+      // Anyone can read active opportunities
+      allow read: if true;
+      // Admins can create, update, or delete opportunities
+      allow write: if isAdmin();
+    }
+
+    // User Bookmarks Subcollection
+    match /users/{userId}/bookmarks/{bookmarkId} {
+      allow read, write: if isOwner(userId) || isAdmin();
+    }
+
+    // Site Settings Collection (Ticker, announcements, metrics)
+    match /settings/{settingId} {
+      allow read: if true;
+      allow write: if isAdmin();
+    }
+
+    // Inquiries Collection (Student Legal Inquiries)
+    match /inquiries/{inquiryId} {
+      allow create: if true;
+      allow read, update, delete: if isAdmin();
+    }
+
+    // Admins Collection
+    match /admins/{adminId} {
+      allow read: if isSignedIn();
+      allow write: if isAdmin();
+    }
+  }
+}

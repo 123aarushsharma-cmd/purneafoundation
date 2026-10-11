@@ -1,0 +1,81 @@
+{
+  "entities": {
+    "Opportunity": {
+      "title": "Opportunity",
+      "description": "Student academic, moot court, internship, or scholarship listing",
+      "type": "object",
+      "properties": {
+        "title": { "type": "string", "maxLength": 200 },
+        "category": { "type": "string", "maxLength": 100 },
+        "date": { "type": "string", "maxLength": 50 },
+        "deadline": { "type": "string", "maxLength": 50 },
+        "description": { "type": "string", "maxLength": 2000 },
+        "link": { "type": "string", "maxLength": 500 },
+        "tag": { "type": "string", "maxLength": 100 },
+        "daily": { "type": "boolean" },
+        "image": { "type": "string", "maxLength": 500 },
+        "createdAt": { "type": "string", "maxLength": 100 },
+        "updatedAt": { "type": "string", "maxLength": 100 }
+      },
+      "required": ["title", "category", "deadline", "link"]
+    },
+    "Bookmark": {
+      "title": "Bookmark",
+      "description": "Saved opportunity bookmarked by a user",
+      "type": "object",
+      "properties": {
+        "opportunityId": { "type": "string", "maxLength": 100 },
+        "userId": { "type": "string", "maxLength": 128 },
+        "title": { "type": "string", "maxLength": 200 },
+        "savedAt": { "type": "string", "maxLength": 100 }
+      },
+      "required": ["opportunityId", "userId"]
+    },
+    "SiteSettings": {
+      "title": "SiteSettings",
+      "description": "Configurable site ticker, hero stats, and announcements",
+      "type": "object",
+      "properties": {
+        "tickerText": { "type": "string", "maxLength": 500 },
+        "statActive": { "type": "string", "maxLength": 50 },
+        "statVerified": { "type": "string", "maxLength": 50 },
+        "statPartners": { "type": "string", "maxLength": 50 },
+        "statTurnaround": { "type": "string", "maxLength": 50 },
+        "updatedAt": { "type": "string", "maxLength": 100 }
+      }
+    },
+    "Inquiry": {
+      "title": "Inquiry",
+      "description": "Student legal consultation and advisory request",
+      "type": "object",
+      "properties": {
+        "name": { "type": "string", "maxLength": 100 },
+        "email": { "type": "string", "maxLength": 100 },
+        "phone": { "type": "string", "maxLength": 50 },
+        "serviceType": { "type": "string", "maxLength": 100 },
+        "message": { "type": "string", "maxLength": 2000 },
+        "status": { "type": "string", "maxLength": 50 },
+        "createdAt": { "type": "string", "maxLength": 100 }
+      },
+      "required": ["name", "email", "serviceType", "message"]
+    }
+  },
+  "firestore": {
+    "/opportunities/{opportunityId}": {
+      "schema": "Opportunity",
+      "description": "Collection of all student opportunities"
+    },
+    "/users/{userId}/bookmarks/{bookmarkId}": {
+      "schema": "Bookmark",
+      "description": "Collection of opportunities saved by a user"
+    },
+    "/settings/{settingId}": {
+      "schema": "SiteSettings",
+      "description": "Global configurable site settings"
+    },
+    "/inquiries/{inquiryId}": {
+      "schema": "Inquiry",
+      "description": "Collection of student legal desk consultation requests"
+    }
+  }
+}

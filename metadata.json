@@ -1,0 +1,8 @@
+{
+  "name": "The Noticeboard — Purnea Rebirth Foundation",
+  "description": "Student Opportunities Noticeboard & Legal Services Desk for Purnea Rebirth Foundation with curated internships, moot courts, scholarships, and legal advisory.",
+  "permissions": [],
+  "capabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
